@@ -1,0 +1,12 @@
+11
+wood 18
+wood 10
+coal 9
+coal 7
+wood 20
+coal 16
+wood 76
+coal 11
+coal 4
+wood 6
+wood 69
