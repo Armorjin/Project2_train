@@ -13,7 +13,6 @@ class Train:public Wagon{//train
         void pop();
         void push(Wagon* wagonP);
         int getSize();
-        void info();
 };
 
 #endif

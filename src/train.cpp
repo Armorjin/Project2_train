@@ -49,15 +49,3 @@ int Train::getSize(){
     return this->size;
 }
 
-void Train::info()
-{
-    std::cout << "train size = " << this->size << "\n";
-    Wagon* current = this->first;
-    for(int i = 0; i < this->size; i++)
-    {
-        std::cout << "wagon # "<<i<<" :\n";
-        std::cout << "cargo type : " << current->getCargoType() << "\n";
-        std::cout << "cargo index : " << current->getId() << "\n";
-        current = current->nextWagon;
-    }
-}
